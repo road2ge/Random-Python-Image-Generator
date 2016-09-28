@@ -1,9 +1,5 @@
 import random
 from PIL import Image
-from StringIO import StringIO
-random_string = ''
-random_string = 'FFFF18'
-hex_string = 'ABCDEF1234567890'
 im = Image.new("RGBA", (1920, 1080), "white")
 pix = im.load()
 for x in range(0,1920):
